@@ -58,8 +58,7 @@ public abstract class MovingObject : MonoBehaviour
 		//If something was hit, return false, Move was unsuccesful.
 		return false;
 	}
-
-
+		
 	//Co-routine for moving units from one space to next, takes a parameter end to specify where to move to.
 	protected IEnumerator SmoothMovement (Vector3 end)
 	{
